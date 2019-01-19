@@ -2,3 +2,13 @@ syntax on
 
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
+
+" map jk to ESC
+inoremap jk <esc>
+
+" map ; to :
+nmap ; :
+
+" navigate using displayed lines instead of physical lines
+nnoremap j gj
+nnoremap k gk
