@@ -7,6 +7,7 @@ brew 'openssl'
 brew 'node'
 brew 'rbenv'
 brew 'wget'
+brew 'source-highlight' # Used for syntax highlighting in 'less'
 
 cask 'atom'
 cask 'firefox'
