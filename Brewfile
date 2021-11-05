@@ -10,7 +10,6 @@ brew 'wget'
 brew 'source-highlight' # Used for syntax highlighting in 'less'
 brew 'autojump'
 
-cask 'atom'
 cask 'firefox'
 cask 'google-chrome'
 cask 'transmission'
