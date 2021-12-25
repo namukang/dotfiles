@@ -23,7 +23,6 @@ cask 'firefox'
 cask 'google-chrome'
 cask 'google-cloud-sdk'
 cask 'notion'
-cask 'simplenote'
 # cask 'transmission' # Disabled due to issues with M1
 cask 'visual-studio-code'
 cask 'vlc'
