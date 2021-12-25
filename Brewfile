@@ -1,25 +1,30 @@
-cask_args appdir: '/Applications'
+# Taps
+tap 'homebrew/cask'
 
+# Formulae
 brew 'ack'
+brew 'autojump'
 brew 'coreutils'
 brew 'grc'
-brew 'openssl'
-brew 'node'
-brew 'rbenv'
-brew 'wget'
-brew 'source-highlight' # Used for syntax highlighting in 'less'
-brew 'autojump'
 brew 'mas'
+brew 'node@16'
+brew 'rbenv'
+brew 'source-highlight' # Used for syntax highlighting in 'less'
+brew 'wget'
 
-cask 'google-chrome'
+# Casks
 cask '1password'
-cask 'visual-studio-code'
-cask 'simplenote'
-cask 'notion'
 cask 'alfred'
-cask 'divvy'
+cask 'discord'
+# cask 'divvy' # Cask is outdated compared to App Store
 cask 'firefox'
-cask 'transmission'
+cask 'google-chrome'
+cask 'google-cloud-sdk'
+cask 'notion'
+cask 'simplenote'
+# cask 'transmission' # Disabled due to issues with M1
+cask 'visual-studio-code'
 cask 'vlc'
 
+# Mac App Store Applications
 mas "Simplenote", id: 692867256

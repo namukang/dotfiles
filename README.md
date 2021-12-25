@@ -40,6 +40,10 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
+## homebrew
+
+Use `brew bundle cleanup` to keep Brewfile as the source of truth.
+
 ## thanks
 
 Forked from [holman's dotfiles](https://github.com/holman/dotfiles).
