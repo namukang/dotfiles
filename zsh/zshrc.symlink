@@ -1,4 +1,4 @@
-export PATH="$PATH:/usr/local/opt/node@12/bin"
+export PATH="/usr/local/opt/node@16/bin:$PATH"
 
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
