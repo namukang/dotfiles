@@ -13,6 +13,7 @@ brew 'node@16'
 brew 'rbenv'
 brew 'source-highlight' # Used for syntax highlighting in 'less'
 brew 'wget'
+brew 'pyenv'
 
 # Casks
 cask '1password'
