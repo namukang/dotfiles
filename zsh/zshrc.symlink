@@ -3,9 +3,6 @@ if [[ -f /opt/homebrew/bin/brew ]]; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-# configure PATH
-export PATH="$HOMEBREW_PREFIX/opt/node@16/bin:$PATH"
-
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
@@ -73,6 +70,11 @@ source $HOMEBREW_PREFIX/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.z
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+# node
+if command -v node 1>/dev/null 2>&1; then
+  export PATH="$PATH:$HOMEBREW_PREFIX/opt/node@16/bin"
+fi
 
 # python
 if command -v pyenv 1>/dev/null 2>&1; then
