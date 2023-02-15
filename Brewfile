@@ -14,6 +14,7 @@ brew 'rbenv'
 brew 'source-highlight' # Used for syntax highlighting in 'less'
 brew 'wget'
 brew 'pyenv'
+brew 'yt-dlp/taps/yt-dlp'
 
 # Casks
 cask '1password'
